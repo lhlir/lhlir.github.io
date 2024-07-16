@@ -33,6 +33,8 @@ h1 {
     grid-column: span 3;
     text-align: center;
     color: #f06191;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: rgb(255, 255, 255);
 }
 
 #name1{
