@@ -29,7 +29,7 @@ body {
 
 
 h1 {
-    font-weight: bold;
+    font-weight: 900;
     grid-column: span 3;
     text-align: center;
     color: #f06191;
