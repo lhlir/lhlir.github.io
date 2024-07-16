@@ -1,5 +1,4 @@
-const yourDate = new Date("2023-05-22T00:00:00"),
-music = ['ido', 'noinaycoanh', 'nguoiamphu' , 'muonroisaomacon' ];
+const yourDate = new Date("2023-05-22T00:00:00");
 
 document.addEventListener('DOMContentLoaded', function(){
       var rootTime = document.querySelector("time");
@@ -16,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function(){
             rootTime.textContent = `${(hrs>9)?hrs:"0"+hrs}:${(min>9)?min:"0"+min}:${(sec>9)?sec:"0"+sec}`;
       } olock();
       var timer = setInterval(function(){olock()}, 1000);
-      document.querySelector("audio").setAttribute("src", `music/${music[Math.floor(Math.random()*music.length)]}.mp3`);
+      document.querySelector("audio").setAttribute("src", `music/ido.mp3`);
 
       document.getElementsByTagName("body")[0].insertAdjacentHTML(
             "beforeend",
