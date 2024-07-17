@@ -33,7 +33,7 @@ h1 {
     grid-column: span 3;
     text-align: center;
     color: #f06191;
-    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-width: 0.3px;
     -webkit-text-stroke-color: rgb(255, 75, 75);
     text-shadow: 0px 2px 4px red;
 }
@@ -45,13 +45,29 @@ h1 {
 
 #name2{
     color: #fff;
-  text-shadow: #2b31ff 0px 0px 2px, #2b31ff 0px 0px 7px, #2b31ff 0px 0px 12px, #2b31ff 0px 0px 17px, #2b31ff 0px 0px 7px, #2b31ff 0px 0px 7px, #2b31ff 0px 0px 7px, #2b31ff 0px 0px 7px;
+    text-shadow: #2b31ff 0px 0px 2px, #2b31ff 0px 0px 7px, #2b31ff 0px 0px 12px, #2b31ff 0px 0px 17px, #2b31ff 0px 0px 7px, #2b31ff 0px 0px 7px, #2b31ff 0px 0px 7px, #2b31ff 0px 0px 7px;
+    margin-bottom: 10px;
+    margin-top: 13px;
 }
 
 .bdanh{
     font-size: 13px;
     line-height: 0.1;
-    
+}
+
+.two{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#nickname{
+    font-size: 13px;
+    line-height: 0.1;
+    background-color: transparent;
+    color:black;
+    border: none;
+    outline:none;
 }
 
 audio{
