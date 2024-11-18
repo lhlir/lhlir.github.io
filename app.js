@@ -16,11 +16,6 @@ document.addEventListener('DOMContentLoaded', function(){
       } olock();
       var timer = setInterval(function(){olock()}, 1000);
       document.querySelector("audio").setAttribute("src", `music/ido.mp3`);
-
-      area.value = localStorage.getItem('nickname');
-      area.oninput = () => {
-            localStorage.setItem('nickname', nickname.value)
-      };
       // document.getElementsByTagName("body")[0].insertAdjacentHTML(
       //       "beforeend",
       //       "<div id='mask'></div>"

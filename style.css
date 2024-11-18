@@ -1,11 +1,11 @@
 html, body {
-    /* background-color: #f6f6f6; */
+    /* background-color: #f6f6f6;
     background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB, #27992d);
     background-size: 400% 400%;
     -webkit-animation: Gradient 15s ease infinite;
     -moz-animation: Gradient 15s ease infinite;
     animation: Gradient 15s ease infinite;
-    -webkit-transition: .3s;
+    -webkit-transition: .3s; */
     margin: 980;
     padding: 0;
 }
@@ -88,6 +88,23 @@ audio{
     border-radius: 10rem;
 }
 
+#myCanvas {
+    background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB, #27992d);
+    background-size: 400% 400%;
+    -webkit-animation: Gradient 15s ease infinite;
+    -moz-animation: Gradient 15s ease infinite;
+    animation: Gradient 15s ease infinite;
+    -webkit-transition: .3s;
+    position: fixed; 
+    touch-action: none;
+    width: calc(100% - 2px);
+    height: calc(100% - 2px);
+    border: 1px dashed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
 date, time {
     display: block;
 }
@@ -107,6 +124,8 @@ time {
     height: 160px;
     border-radius: 50%;
     box-shadow: 2px 2px 8px rgba(0,0,0,.2);
+    position: static !important;
+    left: auto;
 }
 
 #info {
